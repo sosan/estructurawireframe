@@ -14,7 +14,7 @@
 
 }
 
-
+/* Fuente roboto mas bold de lo normal */
 @font-face 
 {
     font-family: "Roboto-Black";
@@ -57,6 +57,18 @@ body
     /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
     /* height: 100vh; */
 
+}
+
+
+/* Cambio de estado en los links de arriba */
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: black;
 }
 
 /* ******************************** */
