@@ -66,6 +66,7 @@
 .logoEmpresa {
     width: 75px;
     height: 50px;
+    border: 1px solid wheat;
 
 }
 
@@ -157,11 +158,6 @@
 .zonaDerecha 
 {
 
-    /* width: 200px; */
-    /* height: 200px; */
-    /* position:relative;
-    z-index: 1; */
-    /* background-color: brown; */
 
 }
 
@@ -195,18 +191,6 @@
     font-size: 2rem;
     font-family: "Roboto-Black";
 }
-
-/* .resetul
-{
-    list-style: none;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 20px;
-    margin: 0px;
-
-} */
 
 .row
 {
@@ -278,8 +262,6 @@
     justify-content: center;
     align-items: center;
 
-
-   
 }
 
 
@@ -339,7 +321,7 @@
 .zonaAbajoCentro
 {
 /* background-color: violet; */
-height: 100%;
+    height: 100%;
     flex-grow: 1;
 
     display: flex;
@@ -361,13 +343,24 @@ height: 100%;
 
 }
 
+
+
 .cajaInformacion
 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.cajaTelefono
+{
     width: 50%;
+}
+
+.cajaEmail
+{
+    width: 60%;
 }
 
 .cajaRedesSociales
