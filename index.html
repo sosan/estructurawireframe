@@ -43,27 +43,81 @@
         <meta name="theme-color" content="#fafafa" />
 
     </head>
-    <body>
+    <body >
         <!-- *** ESTRUCTURA SEMÁNTICA *** -->
         <!-- Header (encabezado de la página, zona superior) -->
-        <header>
-            <!-- nav (el navegador de toda la web) -->
-            <nav>
-                <a href="" class="link1">link1</a>
-                <a href="" class="link2">link2</a>
-                <a href="" class="link3">link3</a>
-                <a href="" class="link4">link4</a>
-            </nav>
+        <header class="zonaImagenBackground ">
+            
+            <section class="zonaNavegacion ">
+
+                <section class="contenidoCentrado paddingLateral">
+                    <img class="logoEmpresa" src="./img/desktop/blankOscuro.png" alt="Logo Empresa">
+
+                    <nav class="textoNavegacion">
+                        <a href="./quienes_somos.html" class="link1">Quienes Somos</a>
+                        <a href="./producto.html" class="link2">Productos</a>
+                        <a href="./contactar.html" class="link3">Contactar</a>
+                        <a href="./blog.html" class="link4">Blog</a>
+                    </nav>
+                </section>
+
+            </section>
+            
+            <section class="textoImagenBackground">
+                <h1 class="tituloEncabezado">Sobre Nosotros</h1>
+            </section>
+            
         </header>
-        <!-- Main (centro de la página, zona central) -->
-        
-        <main>
-            <!-- section y article (posibilidades dentro de main) -->
+
+
+        <main class="contenidoCentralCentrado">
+            
+            <!-- Primera fila de contenido-->
+            <section class="contenidoTamanoFijo margentop60 ancho700">
+                <section class="zonaIzquierda">
+                    <h2 class="reseth tituloNombre ">Hi! I am Clive Sherlock</h2>
+                    <div class="row">
+                        <h3 class="reseth explicacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam dicta asperiores est, id, commodi aliquid quia provident<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sint deleniti ipsum, voluptates repellendus libero asperiores
+                        </h3>
+                        
+                        <img class="imagenDecorativaPequena" src="./img/desktop/blankOscuro.png" alt="Imagen Decorativa">
+                    </div>
+                </section>
+                <section class="zonaDerecha">
+                    <figure class="resetfigure">
+                        <img class="imagenDecorativaGrande" src="./img/desktop/blankOscuro.png" alt="Imagen Decorativa">
+                    </figure>
+                </section>
+            </section>
+            
+            <!-- Segunda fila de contenido -->
+            <section class="contenidoTamanoFijo margentop30 ancho700">
+                <img class="imagenDecorativaRectanguloGrande" src="./img/desktop/blankOscuro.png" alt="Imagen Decorativa">
+                <h3 class="reseth explicacionSegundaFila">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, Est quod maxime facilis magni doloremque natus nostrum cum aspernatur, itaque veritatis beatae neque quam officiis cumque culpa quos nam!<br><br>
+                    Lorem ipsum dolor. Ducimus  fuga praesentium et quibusdam magnam dolore accusamus architecto, consequuntur.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, aspernatur.
+                </h3>
+                <img class="imagenDecorativaPequenaSegundaFila" src="./img/desktop/blankOscuro.png" alt="Imagen Decorativa">
+            </section>
+
+
         </main>
 
-        <!-- Footer (final de la página, zona inferior) -->
-        <footer>
-            <h4>&copy;Copyright</h4>
+
+        <footer class=" ">
+            <section class="zonaImagenBackgroundFondo ">
+                    <div class="contenidoCentradoSeparado ">
+                        <h1 class="reseth textoPregunta">I will be happy to answer your questions</h1>
+                        <button class="boton">Contactar</button>
+                    </div>
+
+            </section>
+            <section>
+
+            </section>
+
+
         </footer>
 
         <!-- *** Google Analytics *** -->

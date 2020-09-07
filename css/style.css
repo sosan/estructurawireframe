@@ -9,11 +9,25 @@
     font-weight: normal;
     font-style: normal;
     src:
-        local("roboto"),
-        url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
-        url("../fonts/roboto-regular-webfont.woff") format("woff");
+        url("../font/roboto-regular-webfont.woff2") format("woff2"),
+        url("../font/roboto-regular-webfont.woff") format("woff");
 
 }
+
+
+@font-face 
+{
+    font-family: "Roboto-Black";
+
+    src: 
+        url("../font/Roboto-Black.woff2") format("woff2"),
+        url("../font/Roboto-Black.woff") format("woff"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 
 @font-face 
 {
@@ -22,8 +36,8 @@
     font-style: normal;
     src:
         local("shrikhandregular"),
-        url("../fonts/shrikhand-regular-webfont.woff2") format("woff2"),
-        url("../fonts/shrikhand-regular-webfont.woff") format("woff");
+        url("../font/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../font/shrikhand-regular-webfont.woff") format("woff");
 
 }
 
@@ -40,8 +54,8 @@ body
 {
 
     /* margenes 20 moviles y 40 en tablet y desktop (1366x768) */
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
-    height: 100vh;
+    /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
+    /* height: 100vh; */
 
 }
 

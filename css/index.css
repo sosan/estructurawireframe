@@ -2,3 +2,316 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+
+.zonaImagenBackground
+{
+    background-image: url("../img/desktop/blank.png");
+    background-repeat: no-repeat;
+
+    background-position: right, left;
+
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    /* position: absolute; */
+    z-index: -1;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.paddingLateral
+{
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+
+}
+
+
+/* .contenidoArriba
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+} */
+
+.zonaNavegacion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.contenidoCentrado {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* .navegacion {
+    flex-grow: 0;
+} */
+
+
+
+.logoEmpresa {
+    width: 75px;
+    height: 50px;
+
+}
+
+.textoNavegacion
+{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+    flex-basis: 50%;
+    /* background-color: red; */
+
+}
+
+.textoImagenBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+
+
+}
+
+.tituloEncabezado
+{
+    font-family: "Roboto-Black";
+
+}
+
+
+
+
+
+
+
+/* ZONA MEDIA */
+
+.contenidoCentralCentrado
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.contenidoTamanoFijo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+}
+
+.margentop60
+{
+    margin-top: 60px;
+
+}
+
+.margentop30
+{
+    margin-top: 30px;
+}
+
+.ancho700
+{
+    width: 700px;
+
+}
+
+.zonaIzquierda
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 20px;
+
+}
+.zonaDerecha 
+{
+
+    /* width: 200px; */
+    /* height: 200px; */
+    /* position:relative;
+    z-index: 1; */
+    /* background-color: brown; */
+
+}
+
+
+.resetfigure
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagenDecorativaGrande
+{
+    width: 250px;
+    height: 200px;
+
+}
+
+
+.reseth
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.tituloNombre
+{
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: "Roboto-Black";
+}
+
+/* .resetul
+{
+    list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+    margin: 0px;
+
+} */
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+.explicacion
+{
+    font-size: 0.85rem;
+    font-weight: normal;
+    width: 70%;
+    height: 100%;
+}
+
+.imagenDecorativaPequena
+{
+    width: 240px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.imagenDecorativaRectanguloGrande
+{
+    width: 200px;
+    height: 250px;
+}
+
+.explicacionSegundaFila
+{
+    font-size: 0.85rem;
+    font-weight: normal;
+    width: 300px;
+    height: 100%;
+}
+
+.imagenDecorativaPequenaSegundaFila
+{
+    width: 140px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+
+/* Zona ABAJO */
+
+
+
+.zonaImagenBackgroundFondo
+{
+    background-image: url("../img/desktop/blank.png");
+    background-repeat: no-repeat;
+
+    background-position: right, left;
+
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    z-index: -1;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+   
+}
+
+
+
+.contenidoCentradoSeparado
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.textoPregunta
+{
+    font-family: "Roboto-Black";
+    font-size: 1.65rem;
+    /* display: inline-block; */
+
+
+}
+
+
+.boton
+{
+    padding: 20px;
+    background-color: gray;
+    color: white;
+
+}
