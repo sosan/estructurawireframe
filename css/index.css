@@ -62,11 +62,6 @@
     
 }
 
-/* .navegacion {
-    flex-grow: 0;
-} */
-
-
 
 .logoEmpresa {
     width: 75px;
@@ -295,15 +290,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 700px;
 }
 
 .textoPregunta
 {
     font-family: "Roboto-Black";
     font-size: 1.65rem;
-    /* display: inline-block; */
-
 
 }
 
