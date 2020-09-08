@@ -3,6 +3,7 @@
 ===========================
 
 ** Visionar Diagrama GIT MERGE en doc\diagrama_merge.png **
+(Link online imagen: https://sosan.github.io/estructurawireframe/doc/diagrama_merge.png )
 
 Ir a cmder / git bash / etc...
 
@@ -66,3 +67,46 @@ MERGE DE DEV A MASTER
 Primer paso pasar a la rama MASTER => git checkout master
 Segundo paso realizar el merge de DEV a MASTER (MASTER <- DEV )  => git merge dev ( El merge trae informacion, no envia informacion, por eso es necesario que estemos en la rama MASTER )
 > Updating afcd233..145a780
+
+
+En el diagrama_merge.png creariamos los comits necesarios
+git add .
+git commit -m "creado header"
+(... segui picando codigo .... )
+
+git add .
+git commit -m "creado footer"
+
+git branch galeria
+git branch contactear
+
+git branch 
+> 
+
+git checkout galeria => Vamos a la rama galeria
+
+1) un vez pulsado intro despues de la instruccion estamos dentro de la rama galeria
+2) duplicamos el index.html y renombramos a galeria.html y cambiariamos el css de galeria.html
+3) Quitamos codigo que no necesitariamos para glaeria.html y seguimos picando codigo en el html y el css ....
+4) Realizar los commits necesarios y una vez finalizada la tarea git add . y git commit -m "finalizada galeria.html"
+5) TRABAJO FINALIZADO...
+
+cambiamos a la rama master
+git checkout master
+
+dentro de la rama no veremos el trabajo (archivos, etc...) hecho en la rama galeria.html ya que son ramas parelelas e independientes y no influyentes entre si.
+
+PARA QUE LA RAMA MASTER SE REFLEJE EL TRABAJO DE LA RAMA GALERIA EN LA RAMA MASTER
+git checkout master => cambiamos a la rama master
+git merge galeria => nos traemos todo el contenido de la rama galeria
+
+
+
+
+
+
+
+
+
+
+
