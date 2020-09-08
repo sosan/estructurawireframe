@@ -56,12 +56,13 @@ Merges de GIT en la master:
 + => son commits
 
 
-RAMA MASTER +-------+-------+-------------+ (MERGE que pasa de la rama dev a la rama master, al crear el merge se crea un commit automaticamente en la rama master, en este caso)
+RAMA MASTER +-------+-------+-------------+ ( PUNTO DE MERGE que pasa de la rama dev a la rama master **)
                     |                     |
 RAMA DEV            +-----+--------+------|
                           |
 OTRA RAMA                 +-------------+------------
 
+(** cont: al crear el merge se crea un commit automaticamente en la rama master, en este caso)
 
 MERGE DE DEV A MASTER
 Primer paso pasar a la rama MASTER => git checkout master
