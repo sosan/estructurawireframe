@@ -210,6 +210,11 @@
     height: 100%;
 }
 
+.textoBold
+{
+    font-weight: bold;
+}
+
 .imagenDecorativaPequena
 {
     width: 240px;
@@ -353,6 +358,15 @@
     align-items: center;
 }
 
+
+.cajaInformacionSpaceEvenly
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .cajaTelefono
 {
     /* width: 50%; */
@@ -374,10 +388,11 @@
 
 }
 
-img
+.marginTop20
 {
-    fill:red;
+    margin-top: 20px;
 }
+
 
 .cajaEnviarEmail
 {
