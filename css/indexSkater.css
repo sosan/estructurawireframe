@@ -1,0 +1,74 @@
+html
+{
+    font-family: "Mont-SemiBold";
+    font-weight: bold;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+.zonaImagenBackground
+{
+    background-image: url("../img/desktop/fondoTeamGee.jpg");
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.zonaNavegacion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+    /* background-color: brown; */
+
+
+}
+
+.contenidoCentrado {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.paddingLateral
+{
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+
+}
+
+
+.textoNavegacion
+{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+    flex-basis: 50%;
+    /* background-color: red; */
+
+}

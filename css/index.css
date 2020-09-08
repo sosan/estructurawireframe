@@ -24,12 +24,6 @@
 
 }
 
-.paddingLateral
-{
-    padding-left: 1.25rem;
-    padding-right: 2rem;
-
-}
 
 
 /* .contenidoArriba
@@ -50,7 +44,7 @@
     align-items: center;
     width: 100%;
     
-
+    
 }
 
 .contenidoCentrado {
@@ -62,6 +56,12 @@
     
 }
 
+.paddingLateral
+{
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+
+}
 
 .logoEmpresa {
     width: 75px;

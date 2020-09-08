@@ -26,6 +26,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Mont-SemiBold";
+
+    src:
+        url("../font/mont-semibold.woff2") format("woff2"),
+        url("../font/mont-semibold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 

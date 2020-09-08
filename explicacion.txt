@@ -1,5 +1,10 @@
+===========================
+| LECCION GIT SOBRE RAMAS |
+===========================
 
+** Visionar Diagrama GIT MERGE en doc\diagrama_merge.png **
 
+Ir a cmder / git bash / etc...
 
 Mostrar ramas
 git branch
