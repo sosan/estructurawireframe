@@ -30,6 +30,29 @@ a
 
 }
 
+.zonaContenidoTamanoFijo900
+{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; */
+    
+    width: 900px;
+    
+}
+
+.propioElementoCentrado
+{
+    align-self: center;
+
+}
+
+.paddingtop30
+{
+    padding-top: 30px;
+}
+
+
 .zonaNavegacion
 {
     display: flex;
