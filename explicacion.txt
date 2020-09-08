@@ -57,3 +57,7 @@ RAMA DEV            +-----+--------+------|
 OTRA RAMA                 +-------------+------------
 
 
+MERGE DE DEV A MASTER
+Primer paso pasar a la rama MASTER => git checkout master
+Segundo paso realizar el merge de DEV a MASTER (MASTER <- DEV )  => git merge dev ( El merge trae informacion, no envia informacion, por eso es necesario que estemos en la rama MASTER )
+> Updating afcd233..145a780
