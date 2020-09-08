@@ -78,19 +78,31 @@ git commit -m "creado header"
 git add .
 git commit -m "creado footer"
 
-git branch galeria
-git branch contactear
+git branch galeria => creada la rama galeria
+git branch contactar => creada la rama contactar
 
 git branch 
-> 
+> galeria
+  contactar
+  * master => rama actual MASTER
 
 git checkout galeria => Vamos a la rama galeria
 
 1) un vez pulsado intro despues de la instruccion estamos dentro de la rama galeria
 2) duplicamos el index.html y renombramos a galeria.html y cambiariamos el css de galeria.html
 3) Quitamos codigo que no necesitariamos para glaeria.html y seguimos picando codigo en el html y el css ....
-4) Realizar los commits necesarios y una vez finalizada la tarea git add . y git commit -m "finalizada galeria.html"
+4) Realizar los commits necesarios y una vez finalizada la tarea comandos: <git add .> y <git commit -m "finalizada galeria.html">
+5) git log => apareceran los commits SOLO PARA LA RAMA GALERIA, en este caso. para salir Q del git log.
 5) TRABAJO FINALIZADO...
+
+cambiamos a la rama contactar ...
+y repetimos proceso pero para la rama CONTACTAR (crear contactar.html, contactar.css )
+
+
+<<<<---- PROFESOR HA EXPLICADO LA ZONA DE ARRIBA . HASTA AQUI  ----->>>>>
+
+(...)
+UNA VEZ FINALIZADO CONTACTAR Y GALERIA
 
 cambiamos a la rama master
 git checkout master
@@ -100,14 +112,5 @@ dentro de la rama no veremos el trabajo (archivos, etc...) hecho en la rama gale
 PARA QUE LA RAMA MASTER SE REFLEJE EL TRABAJO DE LA RAMA GALERIA EN LA RAMA MASTER
 git checkout master => cambiamos a la rama master
 git merge galeria => nos traemos todo el contenido de la rama galeria
-
-
-
-
-
-
-
-
-
 
 
