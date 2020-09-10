@@ -69,4 +69,19 @@ body
     border: 3px solid darkblue;
     border-radius: 10px 10px 10px 10px;
 
+
+    
+}
+
+.reseth
+{
+    font-size: inherit;
+    margin: 0px;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
