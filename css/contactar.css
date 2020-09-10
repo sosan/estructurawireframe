@@ -258,15 +258,16 @@
 
 .zonaImagenBackgroundFondo
 {
-    background-image: url("../img/desktop/blank.png");
+    background-image: url("../img/svg/adorno.svg");
     background-repeat: no-repeat;
 
     background-position: right, left;
 
     background-size: cover;
     width: 100%;
-    height: 300px;
-    margin-top: 150px;
+    height: 281px;
+    margin-top: 71px;
+    margin-bottom: 16px;
     z-index: -1;
 
     
