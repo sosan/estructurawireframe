@@ -2,9 +2,28 @@ html
 {
     font-family: "robotoregular", sans-serif;
     font-size: 16px;
-    background-color: #eeee;
-    color: black;
+    background-color: #383838;
+    color: white;
 }
+
+
+@font-face
+{
+    font-family: "Arial Black";
+    font-size: 3.5rem;
+
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url("../font/.woff2") format("woff2"),
+        url("../font/.woff") format("woff");
+
+
+}
+
+
+
+
 
 
 body 
@@ -13,6 +32,8 @@ body
   
     /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
     height: 100vh;
+
+    font-family: "Arial Black";
 
     display: flex;
     flex-direction: row;
@@ -40,10 +61,10 @@ body
 .cuadradoPequeno
 {
 
-    background-color: red;
+    background-color: black;
     width: 35vw;
     /* margin-left: 20px; */
     border: 2px solid darkblue;
-
+    border-radius: 
 
 }
