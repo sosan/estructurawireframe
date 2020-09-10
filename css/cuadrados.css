@@ -41,9 +41,14 @@ body
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 
 }
 
+main
+{
+    position: relative;
+}
 
 
 .cuadradoGrande
@@ -93,9 +98,10 @@ body
     height: 5px;
     width: 100%;
     position: absolute;
-    top: 50vh;
+    top: calc(50% - 2.5px);
     left: 0px;
 
+    /* background-color: red; */
     background-color: #383838;
 
 }
