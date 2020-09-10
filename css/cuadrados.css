@@ -49,7 +49,7 @@ body
 .cuadradoGrande
 {
     background-color: black;
-    /* width: 100vw; */
+    width: 100vw;
     /* height: 100px; */
 
     display: flex;
@@ -63,10 +63,10 @@ body
 .cuadradoPequeno
 {
 
-    background-color: black;
-    /* width: 35vw; */
+    background-color: red;
+    width: 35%;
     /* margin-left: 20px; */
     border: 2px solid darkblue;
-    border-radius: 
+    border-radius: 0px 10px 0px 0px;
 
 }
