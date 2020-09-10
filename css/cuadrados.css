@@ -33,7 +33,9 @@ body
     /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
     height: 100vh;
 
+
     font-family: "Arial Black";
+    font-size: 3.5rem;
 
     display: flex;
     flex-direction: row;
@@ -62,7 +64,7 @@ body
 {
 
     background-color: black;
-    width: 35vw;
+    /* width: 35vw; */
     /* margin-left: 20px; */
     border: 2px solid darkblue;
     border-radius: 
